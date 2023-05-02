@@ -67,9 +67,10 @@ export const Profile = ({ name, img, isActive, designation, social }) => {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
+          marginTop: "20px",
           "& svg": {
-            color: "#000",
-            background: "cyan",
+            color: "#ffffff",
+            background: "#002f63",
             padding: "5px",
             borderRadius: "50%",
           },

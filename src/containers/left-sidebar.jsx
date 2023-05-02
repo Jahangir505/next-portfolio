@@ -6,6 +6,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import { UserInfo } from "../components/user-info/user-info";
 
 const social_list = [
   { name: "Facebook", icon: <FacebookIcon />, link: "#" },
@@ -24,6 +25,8 @@ export const LeftSideBar = () => {
         name={"Jahangir Hossain"}
         social={social_list}
       />
+      <Divider sx={{ margin: "15px 0" }} />
+      <UserInfo />
       <Divider sx={{ margin: "15px 0" }} />
     </Box>
   );
